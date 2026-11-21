@@ -180,3 +180,4 @@ MODEL_DOWNLOAD_AUTOSTART=false
 
 ## 📜 License
 MIT License. Built for personal research and production knowledge retrieval.
+

@@ -104,3 +104,4 @@ class CustomScratchLLMProvider(BaseModelProvider):
             return generated_text.strip()
 
         raise ModelInvocationError("Custom model is loaded but no inference routine was able to execute.")
+
