@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments & virtualenvs
+.env
+.env.*
+!.env.example
+venv/
+.venv/
+env/
+ENV/
+
+# Databases, Vector Storage & Knowledge Base
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+data/knowledge_base.db
+data/qdrant/
+personal_rag/data/*.db
+personal_rag/data/qdrant/
+backup*.db
+
+# Model weights & large binaries
+*.pt
+*.pth
+*.bin
+*.onnx
+*.gguf
+*.safetensors
+models/
+cache/
+.pytest_cache/
+
+# Streamlit run files
+.streamlit/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
