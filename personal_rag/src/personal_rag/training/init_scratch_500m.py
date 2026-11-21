@@ -69,3 +69,4 @@ def initialize_scratch_500m_model(output_dir: Path) -> str:
 if __name__ == "__main__":
     target = Path(__file__).resolve().parents[3] / "models" / "base_scratch_500m"
     initialize_scratch_500m_model(target)
+
